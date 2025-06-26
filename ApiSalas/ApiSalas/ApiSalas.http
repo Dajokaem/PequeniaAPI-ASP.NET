@@ -1,0 +1,6 @@
+@ApiSalas_HostAddress = http://localhost:5199
+
+GET {{ApiSalas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
