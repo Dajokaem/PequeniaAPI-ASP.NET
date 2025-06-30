@@ -31,3 +31,10 @@ D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\obj\Debug\net8.0\re
 D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\obj\Debug\net8.0\ApiSalas.pdb
 D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\obj\Debug\net8.0\ApiSalas.genruntimeconfig.cache
 D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\obj\Debug\net8.0\ref\ApiSalas.dll
+D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\obj\Debug\net8.0\ApiSalas.sourcelink.json
+D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Trabajo\C# roadmap\ASP .NET basics\REST\ApiSalas\ApiSalas\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
