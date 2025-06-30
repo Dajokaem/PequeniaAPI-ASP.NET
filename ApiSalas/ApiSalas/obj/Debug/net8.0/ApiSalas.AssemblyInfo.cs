@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiSalas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79a3a769ab0e0c2ad69c539f5c201edd196b243e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf284fb834759519452344513f7c0f77a3518a68")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiSalas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiSalas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
