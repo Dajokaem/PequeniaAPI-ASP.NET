@@ -45,11 +45,12 @@ public class ReservasController : ControllerBase
 
                 }
             }
+            conn.Close();
         }
         return Ok(reservas);
     }
 
-     [HttpPost]
+    [HttpPost]
     public IActionResult AgregarReserva([FromBody] Reserva nuevaReserva)
     {
         using (SqlConnection conn = new SqlConnection(_connection))
@@ -70,8 +71,26 @@ public class ReservasController : ControllerBase
 
                 cmd.ExecuteNonQuery();
             }
+            conn.Close();
         }
 
         return Created("", nuevaReserva);
+    }
+    [HttpPatch("{ReservaID}")]
+    public IActionResult CancelarReserva(int ReservaID)
+    {
+        using (SqlConnection conn = new SqlConnection(_connection))
+        {
+            conn.Open();
+            using (SqlCommand cmd = new SqlCommand("sp_CancelarReserva", conn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ReservaID", ReservaID);
+
+                cmd.ExecuteNonQuery();
+            }
+            conn.Close();
+        }
+        return Ok(ReservaID);
     }
 }
